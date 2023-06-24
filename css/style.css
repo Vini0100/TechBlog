@@ -1,0 +1,133 @@
+/* Limpar formatações padrões */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Limpar formatações padrões */
+
+/* Directs */
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Directs */
+
+/* Class */
+.white {
+    color: white;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.post h2{
+    color: #f7b600;
+}
+
+.dates-posts {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+ }
+
+ .side-content {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+ }
+
+ .side-content h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+ }
+
+ .side-text {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+ }
+ /* Class */
+
+/* Layout */
+    /* Header */
+    #logo {
+        color: #4e4e4e;
+        font-size: 2.5em;
+    }
+
+    #header-area {
+        background-color: #f7b600;
+        padding: 10px;
+        text-align: center; 
+    }
+
+    #logo-area, #menu-area {
+        padding: 10px;
+    }
+        /* menu formatting */
+        #menu-area a,
+        #menu-area a:link,
+        #menu-area a:visited {
+            color: #FFF;
+            padding: 8px 12px;
+        }
+
+        #menu-area a:hover {
+            color: #f7b600;
+            background: white;
+        }
+        /* menu formatting */
+    /* Header */
+
+    /* PRINCIPAL */
+    #principal-area {
+        width: 920px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    #principal-area a {
+        color:#4e4e4e;
+        padding: 0px 7px;
+    }
+
+    #principal-area a:hover {
+        text-decoration: underline;
+    }
+
+    #posts {
+        width: 660px;
+        float: left;
+    }
+
+    #side {
+        width: 240px;
+        float: right;
+    }
+
+    #side a {
+        font-size: small;
+    }
+
+    #baseboard {
+        text-align: center;
+        padding: 1px;
+        background: #CCC;
+        clear: both;
+    }
+
+    /* PRINCIPAL */ 
+
+/* Layout */
